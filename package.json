@@ -1,0 +1,30 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Simple To-Do-List Api for Codementor RESTful tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No test specified :(\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MachadoLhes/ToDoREST_Tutorial.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "Rodrigo Machado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MachadoLhes/ToDoREST_Tutorial/issues"
+  },
+  "homepage": "https://github.com/MachadoLhes/ToDoREST_Tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6"
+  }
+}
